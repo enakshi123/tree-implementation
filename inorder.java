@@ -1,11 +1,11 @@
-public void inorder(TREEDS rootlist)
+public void inorder(Node node)
    {
-       Node temp=rootlist.root;
-       if(rootlist.root==null)
+
+       if(node==null)
        {
-           return;
+           return ;
        }
-       inorder(temp.left);
-       System.out.pritn(temp.data);
-       inorder(temp.right);
+       inorder(node.left);
+       System.out.pritn(node.data);
+       inorder(node.right);
    }
