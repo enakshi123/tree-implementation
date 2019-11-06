@@ -36,7 +36,7 @@ else
 
     public static void main(String args[])
     {
-        //Scanner sc=new Scanner(System.in);
+       
         PreOrder tree = new PreOrder();
          tree.root = new Node(1); 
         tree.root.left = new Node(2); 
